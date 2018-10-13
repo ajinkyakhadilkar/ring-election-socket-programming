@@ -45,7 +45,7 @@ def client_thread(c):
 	
 		
 			if data == 'false' or failData=='false':
-				print 'Failure status of process '+(myID+1)%n+' : '+failData
+				print 'Failure status of process '+str((myID+1)%n)+' : '+str(failData)
 				failData=''
 				
 				
